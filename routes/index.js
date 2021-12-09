@@ -6,7 +6,7 @@ const { request } = require('../app');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'API Track' });
 });
 
 //Azure sql server and sql database configuration
